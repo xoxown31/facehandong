@@ -128,6 +128,11 @@
                     </button>
                 </div>
             </div>
+            <div class="loading-wrap">
+                <h3 class="loading-text">
+                    로딩중 . . .
+                </h3>
+            </div>
         </div>
         <div id="disqus_thread"></div>
         <script
@@ -270,13 +275,15 @@
                         $('.image-upload-wrap').hide();
 
                         $('.file-upload-image').attr('src', e.target.result);
-                        $('.file-upload-content').show();
+                        $('.loading-wrap').show();
 
                         $('.image-title').html(input.files[0].name);
                     };
 
                     reader.readAsDataURL(input.files[0]);
                     init().then(function () {
+                        $('.loading-wrap').hide();
+                        $('.file-upload-content').show();
                         predict();
                     });
                 } else {
