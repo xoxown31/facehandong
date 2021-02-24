@@ -205,3 +205,18 @@ body {
     font-family: "NanumSquare";
     text-align: center;
 }
+
+.ad-banner-1 {
+    width: 320px;
+    margin: 0 auto;
+}
+
+.ad-banner-2 {
+    width: 320px;
+    margin: 0 auto;
+}
+
+.ad-banner-3 {
+    width: 300px;
+    margin: 0 auto;
+}
