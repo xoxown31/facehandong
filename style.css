@@ -200,3 +200,8 @@ body {
     text-align: center;
     color: #35465d;
 }
+
+.loading-text{
+    font-family: "NanumSquare";
+    text-align: center;
+}
