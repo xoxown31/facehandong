@@ -246,3 +246,9 @@ body {
 .predict-label {
     font-family: 'TmoneyRoundWindRegular';
 }
+
+.element-label {
+    width: 20%;
+    text-align: left;
+    height: 2rem;
+}
