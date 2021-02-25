@@ -633,6 +633,16 @@ input:checked + label > .knob > i:before {
     transform: rotate(134deg);
 }
 
+input:checked + label > .knob {
+    box-shadow: 0 0 0 8px #a1c6dd inset;
+    background-color: #e2ecf4;
+    transform: translateX(49px) rotate(-140deg);
+}
+
 .knob > i:before {
     left: 4px;
+}
+
+input#gender {
+    display: none;
 }
