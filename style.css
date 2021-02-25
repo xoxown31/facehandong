@@ -6,7 +6,7 @@ body {
 .file-upload {
     background-color: #ffffff;
     padding: 13% 10%;
-    box-shadow: -6px -6px 20px rgba(228, 226, 226, 0.8), 6px 6px 10px rgba(0,0,0,0.2);
+    box-shadow: -6px -6px 100px rgba(228, 226, 226, 0.8), 6px 6px 10px rgba(0,0,0,0.2);
 }
 
 .file-upload-btn {
@@ -162,6 +162,10 @@ body {
 
     .navbar-brand {
         font-size: 2rem;
+    }
+    
+    .container {
+        width: 80%;
     }
 }
 
