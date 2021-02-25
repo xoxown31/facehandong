@@ -253,6 +253,219 @@ body {
     height: 2rem;
 }
 
+.percent-text{
+    color: #ffffff;
+}
+
+.ICT창업학부-box {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 2rem;
+    border-radius: 10px;
+    width: 100%;
+    background-color: rgba(197, 155, 229, 0.2);
+}
+
+.ICT창업학부-bar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 2rem;
+    border-radius: 10px;
+    background-color: rgba(197, 155, 229, 1);
+}
+
+.경영경제학부-box {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 2rem;
+    border-radius: 10px;
+    width: 100%;
+    background-color: rgba(254, 228, 137, 0.2);
+}
+
+.경영경제학부-bar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 2rem;
+    border-radius: 10px;
+    background-color: rgba(254, 228, 137, 1);
+}
+
+.공간환경시스템공학부-box {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 2rem;
+    border-radius: 10px;
+    width: 100%;
+    background-color: rgba(147, 145, 230, 0.2);
+}
+
+.공간환경시스템공학부-bar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 2rem;
+    border-radius: 10px;
+    background-color: rgba(147, 145, 230, 1);
+}
+
+.국제어문학부-box {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 2rem;
+    border-radius: 10px;
+    width: 100%;
+    background-color: rgba(147, 228, 145, 0.2);
+}
+
+.국제어문학부-bar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 2rem;
+    border-radius: 10px;
+    background-color: rgba(147, 228, 145, 1);
+}
+
+.기계제어공학부-box {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 2rem;
+    border-radius: 10px;
+    width: 100%;
+    background-color: rgba(98, 100, 1499, 0.2);
+}
+
+.기계제어공학부-bar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 2rem;
+    border-radius: 10px;
+    background-color: rgba(98, 100, 149, 1);
+}
+
+.법학부-box {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 2rem;
+    border-radius: 10px;
+    width: 100%;
+    background-color: rgba(192, 193, 187, 0.2);
+}
+
+.법학부-bar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 2rem;
+    border-radius: 10px;
+    background-color: rgba(192, 193, 187, 1);
+}
+
+.상담심리사회복지학부-box {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 2rem;
+    border-radius: 10px;
+    width: 100%;
+    background-color: rgba(254, 173, 122, 0.2);
+}
+
+.상담심리사회복지학부-bar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 2rem;
+    border-radius: 10px;
+    background-color: rgba(254, 173, 122, 1);
+}
+
+.생명과학부-box {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 2rem;
+    border-radius: 10px;
+    width: 100%;
+    background-color: rgba(147, 232, 159, 0.2);
+}
+
+.생명과학부-bar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 2rem;
+    border-radius: 10px;
+    background-color: rgba(147, 232, 159, 1);
+}
+
+.전산전자공학부-box {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 2rem;
+    border-radius: 10px;
+    width: 100%;
+    background-color: rgba(216, 222, 1589, 0.2);
+}
+
+.전산전자공학부-bar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 2rem;
+    border-radius: 10px;
+    background-color: rgba(216, 222, 158, 1);
+}
+
+.커뮤니케이션학부-box {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 2rem;
+    border-radius: 10px;
+    width: 100%;
+    background-color: rgba(247, 157, 158, 0.2);
+}
+
+.커뮤니케이션학부-bar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 2rem;
+    border-radius: 10px;
+    background-color: rgba(247, 157, 158, 1);
+}
+
+.콘텐츠융합디자인학부-box {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 2rem;
+    border-radius: 10px;
+    width: 100%;
+    background-color: rgba(217, 178, 217, 0.2);
+}
+
+.콘텐츠융합디자인학부-bar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 2rem;
+    border-radius: 10px;
+    background-color: rgba(217, 178, 217, 1);
+}
+
 .글로벌리더십학부-box {
     position: absolute;
     top: 0;
@@ -270,4 +483,80 @@ body {
     height: 2rem;
     border-radius: 10px;
     background-color: rgba(153, 215, 239, 1);
+}
+
+.교수님-box {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 2rem;
+    border-radius: 10px;
+    width: 100%;
+    background-color: rgba(115, 113, 115, 0.2);
+}
+
+.교수님-bar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 2rem;
+    border-radius: 10px;
+    background-color: rgba(115, 113, 115, 1);
+}
+
+.참된-box {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 2rem;
+    border-radius: 10px;
+    width: 100%;
+    background-color: rgba(181, 173, 181, 0.2);
+}
+
+.참된-bar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 2rem;
+    border-radius: 10px;
+    background-color: rgba(181, 173, 181, 1);
+}
+
+.총장님-box {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 2rem;
+    border-radius: 10px;
+    width: 100%;
+    background-color: rgba(197, 140, 203, 0.2);
+}
+
+.총장님-bar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 2rem;
+    border-radius: 10px;
+    background-color: rgba(197, 140, 203, 1);
+}
+
+.휴학생-box {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 2rem;
+    border-radius: 10px;
+    width: 100%;
+    background-color: rgba(245, 162, 229, 0,2);
+}
+
+.휴학생-bar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 2rem;
+    border-radius: 10px;
+    background-color: rgba(245, 162, 229, 1);
 }
