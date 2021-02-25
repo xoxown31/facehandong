@@ -613,6 +613,10 @@ input:checked + label > .knob > i:after, input:checked + label > .knob > i:befor
     left: -6px;
 }
 
+input:checked + label > .knob > i {
+    background-color: #a1c6dd;
+}
+
 .knob > i:before, .knob > i:after {
     width: 6px;
     position: absolute;
