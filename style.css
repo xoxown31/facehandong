@@ -242,3 +242,7 @@ body {
 .result-description{
     font-family: 'TmoneyRoundWindRegular';
 }
+
+.predict-label {
+    font-family: 'TmoneyRoundWindRegular';
+}

@@ -93,20 +93,20 @@
             </div>
             <div class="file-upload-content">
                 <img
-                    class="file-upload-image mb-5"
+                    class="file-upload-image mb-3"
                     id="face-image"
                     src="#"
                     alt="your image"
                     width="50%"
                 />
-                <div class="result-message mb-5">
-                    <h3 class="result-title mb-2"></h3>
+                <div class="result-message mb-3">
+                    <h3 class="result-title mb-1"></h3>
                     <h4 class="result-description"></h4>
                 </div>
-                <div id="label-container" class="mb-5"></div>
+                <div id="label-container" class="mb-3"></div>
 
                 <!-- Go to www.addthis.com/dashboard to customize your tools -->
-                <div class="addthis_inline_share_toolbox_lz4m mb-3"></div>
+                <div class="addthis_inline_share_toolbox_lz4m mb-1"></div>
 
                 <div class="image-title-wrap">
                     <button type="button" onclick="window.location.reload()" class="remove-image">
@@ -217,7 +217,9 @@
                 labelContainer = document.getElementById('label-container');
                 for (let i = 0; i < maxPredictions; i++) {
                     // and class labels
-                    labelContainer.appendChild(document.createElement('div'));
+                    let newDiv = document.createElement('div');
+                    newDiv.className = "predict-label mb-1";
+                    labelContainer.appendChild(newDiv);
                 }
             }
 
@@ -231,67 +233,67 @@
                 switch (prediction[0].className) {
                     case 'ICT창업학부':
                         resultTitle = 'ICT창업학부';
-                        resultDescription = '항상 창의적으로 생각하는 당신! 당신은 ICT창업학부입니다.';
+                        resultDescription = '항상 창의적으로 생각하는 당신!<br>당신은 ICT창업학부입니다.';
                         break;
                     case '경영경제학부':
                         resultTitle = '경영경제학부';
-                        resultDescription = '발표를 똑부러지게 잘할 것 같은 당신! 당신은 경영경제학부입니다.';
+                        resultDescription = '발표를 똑부러지게 잘할 것 같은 당신!<br>당신은 경영경제학부입니다.';
                         break;
                     case '공간환경시스템공학부':
                         resultTitle = '공간환경시스템공학부';
-                        resultDescription = '등장하는 순간 공간을 지배하는 당신! 당신은 공간환경시스템공학부입니다.';
+                        resultDescription = '등장하는 순간 공간을 지배하는 당신!<br>당신은 공간환경시스템공학부입니다.';
                         break;
                     case '국제어문학부':
                         resultTitle = '국제어문학부';
-                        resultDescription = '영어를 잘할 것 같은 당신! 당신은 국제어문학부입니다.';
+                        resultDescription = '영어를 잘할 것 같은 당신!<br>당신은 국제어문학부입니다.';
                         break;
                     case '기계제어공학부':
                         resultTitle = '기계제어공학부';
-                        resultDescription = '랩실에 갖혀있을 것 같은 당신! 당신은 기계제어공학부입니다.';
+                        resultDescription = '랩실에 갖혀있을 것 같은 당신!<br>당신은 기계제어공학부입니다.';
                         break;
                     case '법학부':
                         resultTitle = '법학부';
-                        resultDescription = '모든 것을 똑부러지게 처리할 것 같은 당신! 당신은 법학부입니다.';
+                        resultDescription = '모든 것을 똑부러지게 처리할 것 같은 당신!<br>당신은 법학부입니다.';
                         break;
                     case '상담심리사회복지학부':
                         resultTitle = '상담심리사회복지학부';
-                        resultDescription = '누구에게나 친절하게 대해줄 것 같은 당신! 당신은 상담심리사회복지학부입니다.';
+                        resultDescription = '누구에게나 친절하게 대해줄 것 같은 당신!<br>당신은 상담심리사회복지학부입니다.';
                         break;
                     case '생명과학부':
                         resultTitle = '생명과학부';
-                        resultDescription = '순수한 생명 그 자체인 당신! 당신은 생명과학부입니다.';
+                        resultDescription = '순수한 생명 그 자체인 당신!<br>당신은 생명과학부입니다.';
                         break;
                     case '전산전자공학부':
                         resultTitle = '전산전자공학부';
-                        resultDescription = '공대 여신이라는 말이 어울릴 것 같은 당신! 당신은 전산전자공학부입니다.';
+                        resultDescription = '공대 여신이라는 말이 어울릴 것 같은 당신!<br>당신은 전산전자공학부입니다.';
                         break;
                     case '커뮤니케이션학부':
                         resultTitle = '커뮤니케이션학부';
-                        resultDescription = '여행을 많이 다닐 것 같은 당신! 당신은 커뮤니케이션학부입니다.';
+                        resultDescription = '여행을 많이 다닐 것 같은 당신!<br>당신은 커뮤니케이션학부입니다.';
                         break;
                     case '콘텐츠융합디자인학부':
                         resultTitle = '콘텐츠융합디자인학부';
-                        resultDescription = '여러 옷을 소화할 수 있는 당신! 당신은 콘텐츠융합디자인학부입니다.';
+                        resultDescription = '여러 옷을 소화할 수 있는 당신!<br>당신은 콘텐츠융합디자인학부입니다.';
                         break;
                     case '글로벌리더십학부':
                         resultTitle = '글로벌리더십학부';
-                        resultDescription = '아직 새내기 후드를 입고 있는 당신! 당신은 글로벌리더십학부입니다.';
+                        resultDescription = '아직 새내기 후드를 입고 있는 당신!<br>당신은 글로벌리더십학부입니다.';
                         break;
                     case '교수님':
                         resultTitle = '교수님';
-                        resultDescription = '교수님! 죄송합니다!';
+                        resultDescription = '교수님!<br>죄송합니다!';
                         break;
                     case '참된 대학생':
                         resultTitle = '참된 대학생';
-                        resultDescription = '마스크를 잘 쓰고 계신 당신! 당신은 참된 대학생입니다.';
+                        resultDescription = '마스크를 잘 쓰고 계신 당신!<br>당신은 참된 대학생입니다.';
                         break;
                     case '총장님':
                         resultTitle = '총장님';
-                        resultDescription = '총장님! 죄송합니다!';
+                        resultDescription = '총장님!<br>안녕하세요!';
                         break;
                     case '휴학생':
                         resultTitle = '휴학생';
-                        resultDescription = '항상 웃고 있는 당신! 당신은 휴학생입니다.';
+                        resultDescription = '항상 웃고 있는 당신!<br>당신은 휴학생입니다.';
                         break;
                 }
                 $('.result-title').html(resultTitle);
