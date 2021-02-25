@@ -252,3 +252,22 @@ body {
     text-align: left;
     height: 2rem;
 }
+
+.글로벌리더십학부-box {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 2rem;
+    border-radius: 10px;
+    width: 100%;
+    background-color: rgba(153, 215, 239, 0.2);
+}
+
+.글로벌리더십학부-bar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 2rem;
+    border-radius: 10px;
+    background-color: rgba(153, 215, 239, 1);
+}
