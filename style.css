@@ -6,6 +6,7 @@ body {
 .file-upload {
     background-color: #ffffff;
     padding: 13% 10%;
+    box-shadow: -6px -6px 20px rgba(228, 226, 226, 0.8), 6px 6px 10px rgba(0,0,0,0.2);
 }
 
 .file-upload-btn {
@@ -79,6 +80,7 @@ body {
 }
 
 .file-upload-image {
+    box-shadow: -6px -6px 5px rgba(228, 226, 226, 0.8), 6px 6px 10px rgba(0,0,0,0.2);
     border: solid 1px;
     margin: auto;
 }
@@ -504,7 +506,7 @@ body {
     background-color: rgba(115, 113, 115, 1);
 }
 
-.참된-box {
+.대학생-box {
     position: absolute;
     top: 0;
     left: 0;
@@ -514,7 +516,7 @@ body {
     background-color: rgba(181, 173, 181, 0.2);
 }
 
-.참된-bar {
+.대학생-bar {
     position: absolute;
     top: 0;
     left: 0;
@@ -542,7 +544,7 @@ body {
     background-color: rgba(197, 140, 203, 1);
 }
 
-.휴학생-box {
+.휴학-box {
     position: absolute;
     top: 0;
     left: 0;
@@ -552,7 +554,7 @@ body {
     background-color: rgba(245, 162, 229, 0,2);
 }
 
-.휴학생-bar {
+.휴학-bar {
     position: absolute;
     top: 0;
     left: 0;
