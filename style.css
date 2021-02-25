@@ -650,3 +650,11 @@ input:checked + label > .knob {
 input#gender {
     display: none;
 }
+
+.pl-3 {
+    padding-left: 1rem!important;
+}
+
+.pr-3 {
+    padding-right: 1rem!important;
+}
