@@ -50,10 +50,14 @@
                             <a class="nav-link active" aria-current="page" href="#">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="https://www.instagram.com/daily_python_/">Daily Python</a>
+                            <a class="nav-link" href="https://www.instagram.com/daily_python_/"
+                                >Daily Python</a
+                            >
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="https://www.instagram.com/xoxown31/">xoxown</a>
+                            <a class="nav-link" href="https://www.instagram.com/xoxown31/"
+                                >xoxown</a
+                            >
                         </li>
                     </ul>
                 </div>
@@ -100,10 +104,8 @@
                     width="50%"
                 />
                 <div class="result-message mb-3">
-                    <h3 class="result-title mb-1"></h3>
-                    <h4 class="result-description"></h4>
                 </div>
-                <div id="label-container" class="mb-3"></div>
+                <div id="label-container" class="mb-5"></div>
 
                 <!-- Go to www.addthis.com/dashboard to customize your tools -->
                 <div class="addthis_inline_share_toolbox_lz4m mb-1"></div>
@@ -114,7 +116,7 @@
                     </button>
                 </div>
             </div>
-            <div class="loading-wrap" style="display:none;">
+            <div class="loading-wrap" style="display: none;">
                 <h3 class="loading-text">
                     로딩중 . . .
                 </h3>
@@ -122,44 +124,44 @@
         </div>
         <div class="ad-banner mb-5">
             <div class="ad-banner-1">
-            <ins
-                class="kakao_ad_area"
-                style="display: none;"
-                data-ad-unit="DAN-EiVHQAWA9sX7Oy4Y"
-                data-ad-width="320"
-                data-ad-height="100"
-            ></ins>
+                <ins
+                    class="kakao_ad_area"
+                    style="display: none;"
+                    data-ad-unit="DAN-EiVHQAWA9sX7Oy4Y"
+                    data-ad-width="320"
+                    data-ad-height="100"
+                ></ins>
+            </div>
+            <div class="ad-banner-2">
+                <ins
+                    class="kakao_ad_area"
+                    style="display: none;"
+                    data-ad-unit="DAN-8SeoGuphu2O15RSM"
+                    data-ad-width="320"
+                    data-ad-height="50"
+                ></ins>
+                <script
+                    type="text/javascript"
+                    src="//t1.daumcdn.net/kas/static/ba.min.js"
+                    async
+                ></script>
+            </div>
+            <div class="ad-banner-3">
+                <ins
+                    class="kakao_ad_area"
+                    style="display: none;"
+                    data-ad-unit="DAN-B2vqOvjkPdy8VGTs"
+                    data-ad-width="300"
+                    data-ad-height="250"
+                ></ins>
+                <script
+                    type="text/javascript"
+                    src="//t1.daumcdn.net/kas/static/ba.min.js"
+                    async
+                ></script>
+            </div>
         </div>
-        <div class="ad-banner-2">
-            <ins
-                class="kakao_ad_area"
-                style="display: none;"
-                data-ad-unit="DAN-8SeoGuphu2O15RSM"
-                data-ad-width="320"
-                data-ad-height="50"
-            ></ins>
-            <script
-                type="text/javascript"
-                src="//t1.daumcdn.net/kas/static/ba.min.js"
-                async
-            ></script>
-        </div>
-        <div class="ad-banner-3">
-            <ins
-                class="kakao_ad_area"
-                style="display: none;"
-                data-ad-unit="DAN-B2vqOvjkPdy8VGTs"
-                data-ad-width="300"
-                data-ad-height="250"
-            ></ins>
-            <script
-                type="text/javascript"
-                src="//t1.daumcdn.net/kas/static/ba.min.js"
-                async
-            ></script>
-        </div>
-        </div>
-        
+
         <script type="text/javascript" src="//t1.daumcdn.net/kas/static/ba.min.js" async></script>
         <div id="disqus_thread" class="container"></div>
         <script
@@ -218,7 +220,7 @@
                 for (let i = 0; i < maxPredictions; i++) {
                     // and class labels
                     let newDiv = document.createElement('div');
-                    newDiv.className = "predict-label mb-1";
+                    newDiv.className = 'predict-label d-flex mb-1';
                     labelContainer.appendChild(newDiv);
                 }
             }
@@ -233,51 +235,63 @@
                 switch (prediction[0].className) {
                     case 'ICT창업학부':
                         resultTitle = 'ICT창업학부';
-                        resultDescription = '항상 창의적으로 생각하는 당신!<br>당신은 ICT창업학부입니다.';
+                        resultDescription =
+                            '항상 창의적으로 생각하는 당신!<br>당신은 ICT창업학부입니다.';
                         break;
                     case '경영경제학부':
                         resultTitle = '경영경제학부';
-                        resultDescription = '발표를 똑부러지게 잘할 것 같은 당신!<br>당신은 경영경제학부입니다.';
+                        resultDescription =
+                            '발표를 똑부러지게 잘할 것 같은 당신!<br>당신은 경영경제학부입니다.';
                         break;
                     case '공간환경시스템공학부':
                         resultTitle = '공간환경시스템공학부';
-                        resultDescription = '등장하는 순간 공간을 지배하는 당신!<br>당신은 공간환경시스템공학부입니다.';
+                        resultDescription =
+                            '등장하는 순간 공간을 지배하는 당신!<br>당신은 공간환경시스템공학부입니다.';
                         break;
                     case '국제어문학부':
                         resultTitle = '국제어문학부';
-                        resultDescription = '영어를 잘할 것 같은 당신!<br>당신은 국제어문학부입니다.';
+                        resultDescription =
+                            '영어를 잘할 것 같은 당신!<br>당신은 국제어문학부입니다.';
                         break;
                     case '기계제어공학부':
                         resultTitle = '기계제어공학부';
-                        resultDescription = '랩실에 갖혀있을 것 같은 당신!<br>당신은 기계제어공학부입니다.';
+                        resultDescription =
+                            '랩실에 갖혀있을 것 같은 당신!<br>당신은 기계제어공학부입니다.';
                         break;
                     case '법학부':
                         resultTitle = '법학부';
-                        resultDescription = '모든 것을 똑부러지게 처리할 것 같은 당신!<br>당신은 법학부입니다.';
+                        resultDescription =
+                            '모든 것을 똑부러지게 처리할 것 같은 당신!<br>당신은 법학부입니다.';
                         break;
                     case '상담심리사회복지학부':
                         resultTitle = '상담심리사회복지학부';
-                        resultDescription = '누구에게나 친절하게 대해줄 것 같은 당신!<br>당신은 상담심리사회복지학부입니다.';
+                        resultDescription =
+                            '누구에게나 친절하게 대해줄 것 같은 당신!<br>당신은 상담심리사회복지학부입니다.';
                         break;
                     case '생명과학부':
                         resultTitle = '생명과학부';
-                        resultDescription = '순수한 생명 그 자체인 당신!<br>당신은 생명과학부입니다.';
+                        resultDescription =
+                            '순수한 생명 그 자체인 당신!<br>당신은 생명과학부입니다.';
                         break;
                     case '전산전자공학부':
                         resultTitle = '전산전자공학부';
-                        resultDescription = '공대 여신이라는 말이 어울릴 것 같은 당신!<br>당신은 전산전자공학부입니다.';
+                        resultDescription =
+                            '공대 여신이라는 말이 어울릴 것 같은 당신!<br>당신은 전산전자공학부입니다.';
                         break;
                     case '커뮤니케이션학부':
                         resultTitle = '커뮤니케이션학부';
-                        resultDescription = '여행을 많이 다닐 것 같은 당신!<br>당신은 커뮤니케이션학부입니다.';
+                        resultDescription =
+                            '여행을 많이 다닐 것 같은 당신!<br>당신은 커뮤니케이션학부입니다.';
                         break;
                     case '콘텐츠융합디자인학부':
                         resultTitle = '콘텐츠융합디자인학부';
-                        resultDescription = '여러 옷을 소화할 수 있는 당신!<br>당신은 콘텐츠융합디자인학부입니다.';
+                        resultDescription =
+                            '여러 옷을 소화할 수 있는 당신!<br>당신은 콘텐츠융합디자인학부입니다.';
                         break;
                     case '글로벌리더십학부':
                         resultTitle = '글로벌리더십학부';
-                        resultDescription = '아직 새내기 후드를 입고 있는 당신!<br>당신은 글로벌리더십학부입니다.';
+                        resultDescription =
+                            '아직 새내기 후드를 입고 있는 당신!<br>당신은 글로벌리더십학부입니다.';
                         break;
                     case '교수님':
                         resultTitle = '교수님';
@@ -285,7 +299,8 @@
                         break;
                     case '참된 대학생':
                         resultTitle = '참된 대학생';
-                        resultDescription = '마스크를 잘 쓰고 계신 당신!<br>당신은 참된 대학생입니다.';
+                        resultDescription =
+                            '마스크를 잘 쓰고 계신 당신!<br>당신은 참된 대학생입니다.';
                         break;
                     case '총장님':
                         resultTitle = '총장님';
@@ -296,21 +311,27 @@
                         resultDescription = '항상 웃고 있는 당신!<br>당신은 휴학생입니다.';
                         break;
                 }
-                $('.result-title').html(resultTitle);
-                $('.result-description').html(resultDescription);
-                var totalProbability = 0;
-                for (let i = 0; i < 5; i++) {
-                    totalProbability += prediction[i].probability;
-                }
+                var title = "<h3 class='" + prediction[0].className + "-result-title'>" + resultTitle + "</h3>";
+                var description = "<h4 class='result-description pt-1'>" + resultDescription + "</h4>";
+
+                $('.result-message').html(title + description);
+                var barWidth;
                 for (let i = 0; i < maxPredictions; i++) {
-                    const classPrediction =
-                        prediction[i].className +
-                        ': ' +
-                        ((prediction[i].probability / totalProbability) * 100).toFixed(1) +
-                        '%';
-                    labelContainer.childNodes[i].innerHTML = classPrediction;
+                    if (prediction[i].probability.toFixed(2) > 0.1) {
+                        barWidth = Math.round(prediction[i].probability.toFixed(2) * 100) + "%";
+                    } else if (prediction[i].probability.toFixed(2) >= 0.01) {
+                        barWidth = "4%"
+                    } else {
+                        barWidth = "2%"
+                    }
+                    var labelTitle = prediction[i].className;
+                    var label = "<div class='predict-label d-flex align-items-center'>" + labelTitle + "</div>"
+                    var bar = "<div class='bar-container position-relative container'><div class='" + prediction[i].className 
+                    + "-box'></div><div class='d-flex justify-content-center align-items-center " + prediction[i].className 
+                    + "-bar' style='width: " + barWidth + "'><span class='d-block percent-text'>" + Math.round(prediction[i].probability.toFixed(2) * 100) 
+                    + "%</span></div></div>";
+                    labelContainer.childNodes[i].innerHTML = label + bar;
                 }
-            }
         </script>
         <script>
             function readURL(input) {

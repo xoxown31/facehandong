@@ -1,114 +1,113 @@
 body {
-  font-family: sans-serif;
-  background-color: #ffffff;
+    font-family: sans-serif;
+    background-color: #ffffff;
 }
 
 .file-upload {
-  background-color: #ffffff;
-  padding: 13% 10%;
-
+    background-color: #ffffff;
+    padding: 13% 10%;
 }
 
 .file-upload-btn {
-  width: 100%;
-  margin: 0;
-  color: #fff;
-  background: #1FB264;
-  border: none;
-  padding: 10px;
-  border-radius: 4px;
-  border-bottom: 4px solid #15824B;
-  transition: all .2s ease;
-  outline: none;
-  text-transform: uppercase;
-  font-weight: 700;
+    width: 100%;
+    margin: 0;
+    color: #fff;
+    background: #1fb264;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    border-bottom: 4px solid #15824b;
+    transition: all 0.2s ease;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 700;
 }
 
 .file-upload-btn:hover {
-  background: #1AA059;
-  color: #ffffff;
-  transition: all .2s ease;
-  cursor: pointer;
+    background: #1aa059;
+    color: #ffffff;
+    transition: all 0.2s ease;
+    cursor: pointer;
 }
 
 .file-upload-btn:active {
-  border: 0;
-  transition: all .2s ease;
+    border: 0;
+    transition: all 0.2s ease;
 }
 
 .file-upload-content {
-  display: none;
-  text-align: center;
+    display: none;
+    text-align: center;
 }
 
 .file-upload-input {
-  position: absolute;
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  height: 100%;
-  outline: none;
-  opacity: 0;
-  cursor: pointer;
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    outline: none;
+    opacity: 0;
+    cursor: pointer;
 }
 
 .image-upload-wrap {
-  border: 4px dashed #1FB264;
-  position: relative;
+    border: 4px dashed #1fb264;
+    position: relative;
 }
 
 .image-dropping,
 .image-upload-wrap:hover {
-  background-color: #35465d;
-  border: 1.5px dashed #ffffff;
+    background-color: #35465d;
+    border: 1.5px dashed #ffffff;
 }
 
 .image-title-wrap {
-  padding: 0 15px 15px 15px;
-  color: #222;
+    padding: 0 15px 15px 15px;
+    color: #222;
 }
 
 .drag-text {
-  text-align: center;
+    text-align: center;
 }
 
 .drag-text h3 {
-  font-weight: 100;
-  text-transform: uppercase;
-    width:50%;
-    margin:0 auto;
+    font-weight: 100;
+    text-transform: uppercase;
+    width: 50%;
+    margin: 0 auto;
 }
 
 .file-upload-image {
-  margin: auto;
-  padding: 20px;
+    border: solid 1px;
+    margin: auto;
 }
 
 .remove-image {
-  width: 200px;
-  margin: 0;
-  color: #fff;
-  background: #cd4535;
-  border: none;
-  padding: 10px;
-  border-radius: 4px;
-  border-bottom: 4px solid #b02818;
-  transition: all .2s ease;
-  outline: none;
-  text-transform: uppercase;
-  font-weight: 700;
+    width: 200px;
+    margin: 0;
+    color: #fff;
+    background: #cd4535;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    border-bottom: 4px solid #b02818;
+    transition: all 0.2s ease;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 700;
 }
 
 .remove-image:hover {
-  background: #c13b2a;
-  color: #ffffff;
-  transition: all .2s ease;
-  cursor: pointer;
+    background: #c13b2a;
+    color: #ffffff;
+    transition: all 0.2s ease;
+    cursor: pointer;
 }
 
 .remove-image:active {
-  border: 0;
-  transition: all .2s ease;
+    border: 0;
+    transition: all 0.2s ease;
 }
 
 .nav-distance {
@@ -116,13 +115,13 @@ body {
 }
 
 .navbar-light .navbar-brand {
-  font-family: NanumSquareR;
-  line-height: 1.68;
-  text-align: left;
-  color: #35465d;
+    font-family: NanumSquareR;
+    line-height: 1.68;
+    text-align: left;
+    color: #35465d;
 }
 
-.navbar-light .navbar-toggler{
+.navbar-light .navbar-toggler {
     border-color: #ffffff;
 }
 
@@ -131,42 +130,41 @@ body {
 }
 
 .title {
-  font-family: "NanumSquare";
-  line-height: 1.67;
-  text-align: center;
-  color: #35465d;
+    font-family: 'NanumSquare';
+    line-height: 1.67;
+    text-align: center;
+    color: #35465d;
 }
 
-.subtitle{
-  font-family: "NanumSquare";
-  line-height: 1.53;
-  text-align: center;
-  color: #35465d;
+.subtitle {
+    font-family: 'NanumSquare';
+    line-height: 1.53;
+    text-align: center;
+    color: #35465d;
 }
 
-.youtube-icon{
+.youtube-icon {
     height: 25px;
     width: 25px;
 }
 
-@media screen and (max-width:600px){
+@media screen and (max-width: 600px) {
     html {
         font-size: 10px;
     }
-    
-    .youtube-icon{
-        height:17.5px;
+
+    .youtube-icon {
+        height: 17.5px;
         width: 17.5px;
     }
-    
-    .navbar-brand{
+
+    .navbar-brand {
         font-size: 2rem;
     }
-    
 }
 
 .youtube-link {
-    font-family: "NanumSquare";
+    font-family: 'NanumSquare';
     line-height: 1.71;
     text-align: center;
     color: #f73737;
@@ -174,14 +172,14 @@ body {
 }
 
 .youtube-link:hover {
-    font-family: "NanumSquare";
+    font-family: 'NanumSquare';
     line-height: 1.71;
     text-align: center;
     color: #f73737;
     text-decoration: underline;
 }
 
-.file-upload{
+.file-upload {
     border-radius: 10px;
     border: solid 1.5px #f6f7fa;
     background-color: #f6f7fa;
@@ -194,15 +192,15 @@ body {
     background-color: #ffffff;
 }
 
-.upload-text{
-    font-family: "NanumSquare";
+.upload-text {
+    font-family: 'NanumSquare';
     line-height: 1.53;
     text-align: center;
     color: #35465d;
 }
 
-.loading-text{
-    font-family: "NanumSquare";
+.loading-text {
+    font-family: 'NanumSquare';
     text-align: center;
 }
 
@@ -223,14 +221,16 @@ body {
 
 @font-face {
     font-family: 'TmoneyRoundWindExtraBold';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-07@1.0/TmoneyRoundWindExtraBold.woff') format('woff');
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-07@1.0/TmoneyRoundWindExtraBold.woff')
+        format('woff');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'TmoneyRoundWindRegular';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-07@1.0/TmoneyRoundWindRegular.woff') format('woff');
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-07@1.0/TmoneyRoundWindRegular.woff')
+        format('woff');
     font-weight: normal;
     font-style: normal;
 }
@@ -239,7 +239,7 @@ body {
     font-family: 'TmoneyRoundWindExtraBold';
 }
 
-.result-description{
+.result-description {
     font-family: 'TmoneyRoundWindRegular';
 }
 
