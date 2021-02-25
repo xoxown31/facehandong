@@ -282,6 +282,10 @@ body {
     background-color: rgba(197, 155, 229, 1);
 }
 
+.ICT창업학부-result-title {
+    color: rgba(197, 155, 229, 1);
+}
+
 .경영경제학부-box {
     position: absolute;
     top: 0;
@@ -299,6 +303,10 @@ body {
     height: 2rem;
     border-radius: 10px;
     background-color: rgba(254, 228, 137, 1);
+}
+
+.경영경제학부-result-title {
+    color: rgba(254, 228, 137, 1);
 }
 
 .공간환경시스템공학부-box {
@@ -320,6 +328,10 @@ body {
     background-color: rgba(147, 145, 230, 1);
 }
 
+.공간환경시스템공학부-result-title {
+    color: rgba(147, 145, 230, 1);
+}
+
 .국제어문학부-box {
     position: absolute;
     top: 0;
@@ -337,6 +349,10 @@ body {
     height: 2rem;
     border-radius: 10px;
     background-color: rgba(147, 228, 145, 1);
+}
+
+.국제어문학부-result-title {
+    color: rgba(147, 228, 145, 1);
 }
 
 .기계제어공학부-box {
@@ -358,6 +374,10 @@ body {
     background-color: rgba(98, 100, 149, 1);
 }
 
+.기계제어공학부-result-title {
+    color: rgba(98, 100, 149, 1);
+}
+
 .법학부-box {
     position: absolute;
     top: 0;
@@ -375,6 +395,10 @@ body {
     height: 2rem;
     border-radius: 10px;
     background-color: rgba(192, 193, 187, 1);
+}
+
+.법학부-result-title {
+    color: rgba(192, 193, 187, 1);
 }
 
 .상담심리사회복지학부-box {
@@ -396,6 +420,10 @@ body {
     background-color: rgba(254, 173, 122, 1);
 }
 
+.상담심리사회복지학부-result-title {
+    color: rgba(254, 173, 122, 1);
+}
+
 .생명과학부-box {
     position: absolute;
     top: 0;
@@ -413,6 +441,10 @@ body {
     height: 2rem;
     border-radius: 10px;
     background-color: rgba(147, 232, 159, 1);
+}
+
+.생명과학부-result-title {
+    color: rgba(147, 232, 159, 1);
 }
 
 .전산전자공학부-box {
@@ -434,6 +466,10 @@ body {
     background-color: rgba(216, 222, 158, 1);
 }
 
+.전산전자공학부-result-title {
+    color: rgba(216, 222, 158, 1);
+}
+
 .커뮤니케이션학부-box {
     position: absolute;
     top: 0;
@@ -451,6 +487,10 @@ body {
     height: 2rem;
     border-radius: 10px;
     background-color: rgba(247, 157, 158, 1);
+}
+
+.커뮤니케이션학부-result-title {
+    color: rgba(247, 157, 158, 1);
 }
 
 .콘텐츠융합디자인학부-box {
@@ -472,6 +512,10 @@ body {
     background-color: rgba(217, 178, 217, 1);
 }
 
+.콘텐츠융합디자인학부-result-title {
+    color: rgba(217, 178, 217, 1);
+}
+
 .글로벌리더십학부-box {
     position: absolute;
     top: 0;
@@ -489,6 +533,10 @@ body {
     height: 2rem;
     border-radius: 10px;
     background-color: rgba(153, 215, 239, 1);
+}
+
+.글로벌리더십학부-result-title {
+    color: rgba(153, 215, 239, 1);
 }
 
 .교수님-box {
@@ -510,6 +558,10 @@ body {
     background-color: rgba(115, 113, 115, 1);
 }
 
+.교수님-result-title {
+    color: rgba(115, 113, 115, 1);
+}
+
 .대학생-box {
     position: absolute;
     top: 0;
@@ -527,6 +579,10 @@ body {
     height: 2rem;
     border-radius: 10px;
     background-color: rgba(181, 173, 181, 1);
+}
+
+.대학생-result-title {
+    color: rgba(181, 173, 181, 1);
 }
 
 .총장님-box {
@@ -548,6 +604,10 @@ body {
     background-color: rgba(197, 140, 203, 1);
 }
 
+.총장님-result-title {
+    color: rgba(197, 140, 203, 1);
+}
+
 .휴학-box {
     position: absolute;
     top: 0;
@@ -565,6 +625,10 @@ body {
     height: 2rem;
     border-radius: 10px;
     background-color: rgba(245, 162, 229, 1);
+}
+
+.휴학-result-title {
+    color: rgba(245, 162, 229, 1);
 }
 
 label {
